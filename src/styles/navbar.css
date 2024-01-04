@@ -1,0 +1,32 @@
+.color-navbar {
+    background-color: var(--dark-bg-solid); 
+  }
+  
+  .nav-link{
+    color:var(--light-font-solid);
+    font-size: var(--font-medium);
+  }
+  
+  .nav-link:hover {
+    color: var(--primary-solid);
+  }
+  
+  .nav-link img:hover {
+    filter: invert(37%) sepia(82%) saturate(7489%) hue-rotate(2deg) brightness(99%) contrast(101%);
+  }
+    /* MediaQuerys */
+    
+    @media (max-width: 575px) {
+      .nav{
+          justify-content: space-around;
+        }
+
+      .btn-dark {
+        display: none; /* oculta el botón */
+    }
+
+      .navbar-brand img {
+        width: 200px; /* o el tamaño que prefieras */
+    }
+    }
+    
