@@ -1,7 +1,7 @@
-export function Navbar() {
-    return (
-      <>
-        <h1>Navbar</h1>
-      </>
-    );
-  }
+export function navbar() {
+  return (
+    <>
+      <h1>navbar</h1>
+    </>
+  );
+}
