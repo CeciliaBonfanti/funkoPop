@@ -1,13 +1,120 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--inter-regular);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Fonts */
+@font-face {
+  font-family: "Inter Regular";
+  src: url("./fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter Medium";
+  src: url("./fonts/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter Semibold";
+  src: url("./fonts/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway Regular";
+  src: url("./fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway Medium";
+  src: url("./fonts/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway Semibold";
+  src: url("./fonts/Raleway-SemiBold.ttf") format("truetype");
+}
+
+
+:root {
+  /*Palette*/
+  --primary-solid: #FF3333;
+  --primary-900: rgb(255, 51, 51, 0.9);
+  --primary-500: rgb(255, 51, 51, 0.5);
+  --primari-300: rgb(255, 51, 51,0.3);
+
+  --secondary-solid: #1D84B5;
+  --secondary-900: rgb(29, 132, 181, 0.9);
+  --secondary-500: rgb(29, 132, 181, 0.5);
+  --secondary-300: rgb(29, 132, 181, 0.3);
+
+  --dark-solid: #1f1f1f;
+  --dark-900: rgb(31, 31, 31, 0.9);
+  --dark-500: rgb(31, 31, 31, 0.5);
+  --dark-300: rgb(31, 31, 31, 0.3);
+
+  --dark-bg-solid: #30343f;
+  --light-bg-solid: #fafaff;
+  --light-font-solid: #ffff;
+
+  /*Typhography*/
+  --inter-regular: 'Inter Regular', sans-serif;
+  --inter-medium: 'Inter Medium', sans-serif;
+  --inter-semibold: 'Inter Semibold', sans-serif;
+
+  --raleway-regular: 'Raleway Regular', sans-serif;
+  --raleway-medium: 'Raleway Medium', sans-serif;
+  --raleway-semibold: 'Raleway Semibold', sans-serif;
+
+  /*font-sizes*/
+  --font-display: 4.6em;
+  --font-jumbo: 3.8em;
+  --font-xlarge: 3em;
+  --font-large: 2.4em;
+  --font-medium: 1.8em;
+  --font-small: 1.6em;
+  --font-xsmall: 1.2em;
+
+  /*spacings*/
+  --spacing-240: 24.0rem;
+  --spacing-128: 12.8rem;
+  --spacing-95: 9.5rem;
+  --spacing-68: 6.8rem;
+  --spacing-40: 4.0rem;
+  --spacing-36: 3.6rem;
+  --spacing-28: 2.8rem;
+  --spacing-24: 2.4rem;
+  --spacing-20: 2rem;
+  --spacing-18: 1.8rem;
+  --spacing-16: 1.6rem;
+  --spacing-14: 1.4rem; 
+  --spacing-8: 0.8rem;
+}
+
+html {
+  font-size: 62.5%; /*fuente predeterminada del html: 10px*/
+  font-family: var(--base-font);
+  color:var(--dark-solid);
+}
+
+a{
+  text-decoration: none;
+  font-family: inherit;
+  color: var(--light-font-solid);
+}
+
+li{
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
