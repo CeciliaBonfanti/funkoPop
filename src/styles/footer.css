@@ -1,0 +1,28 @@
+.color-footer{
+    background-color: var(--dark-bg-solid); 
+}
+.img-footer{
+    width: 300px;
+}
+.Link{
+    font-size: var(--font-medium);
+}
+
+.Link:hover {
+    color: var(--primary-solid);
+}
+
+footer a:hover i {
+    color: var(--primary-solid);
+}
+
+@media (max-width: 575px) {
+footer .d-flex {
+    flex-direction: column;
+}
+footer .d-flex .responsive-red {
+    display: flex;
+    flex-direction: row;
+}
+}
+  
