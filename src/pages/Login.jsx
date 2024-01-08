@@ -1,7 +1,12 @@
+import { MyNavbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
+import { LoginMainContent } from "../components/Login-main-content";
 export function Login() {
     return (
       <>
-        <h1>Login</h1>
+        <MyNavbar/>
+        <LoginMainContent/>
+        <Footer/>
       </>
     );
   }
