@@ -1,7 +1,12 @@
+import { MyNavbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
+import { CreateMainContent } from "../components/Create-main-content";
 export function Create() {
     return (
       <>
-        <h1>Create</h1>
+        <MyNavbar/>
+        <CreateMainContent/>
+        <Footer/>
       </>
     );
   }
