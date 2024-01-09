@@ -1,0 +1,57 @@
+/*SE DA ESTILO A SHOP*/
+/* SE ORGANIZA DISPOSICION DE SHOP-MAIN*/
+
+.shop-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: var(--spacing-68) auto var(--spacing-20) auto;
+    justify-items: center;
+  }
+  
+  .shop-main-aside {
+    grid-column: 1 / 2;
+    font-weight: 500;
+    width: var(--spacing-240); /*el aside solo ocupará 240px de ancho dentro de su contenedor grid*/
+  }
+  
+  .shop-main-section {
+    grid-column: 2 / 3;
+  }
+  
+  .shop-main-aside div{ /* el aside está compuesto por distintos grupos de div, estilizamos para que queden uno debajo del otro*/
+    display: flex;
+    flex-direction: column;
+    padding-bottom: var(--spacing-8);
+  }
+  
+  .shop-main-aside_title { /* todos los titulos del aside tendrán 24px o 2.4em*/
+    font-size: var(--font-large);
+    padding-bottom: var(--spacing-8);
+  }
+  
+  .shop-main-aside_input{ /*estilizamos los inputs*/
+    border-radius: 5px;
+    padding: var(--spacing-8);
+    border: 2px solid var(--dark-solid);
+    color: #B9B9B9;
+    font-size: var(--font-small);
+  }
+  
+  #shop-main-aside_min_max{ /* debajo del titulo "precio" tenemos los inputs min y max, cambiamos su direccion para que puedan quedar paralelos*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #precio-min, #precio-max { /* delimitamos los inputs de min y max a 68px*/
+    width: var(--spacing-68);
+  }
+  
+  .shop-main-aside_label{ /*los labels de los inputs con tamaño de 18px*/
+    font-size: var(--font-medium);
+  }
+  
+  .shop-main-aside__span input[type="checkbox"] {/*Se agrandan los checkbox dentro de nuestro span de titulo "filtrar" */
+    transform: scale(1.4);
+  }

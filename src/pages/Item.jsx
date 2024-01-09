@@ -1,7 +1,14 @@
+import { MyNavbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
+import { ItemMainContent } from "../components/Item-main-content"
+import { Slider } from "../components/Slider"
 export function Item() {
     return (
       <>
-        <h1>Item</h1>
+        <MyNavbar/> 
+        <ItemMainContent/>
+        <Slider/>
+        <Footer/>
       </>
     );
   }
