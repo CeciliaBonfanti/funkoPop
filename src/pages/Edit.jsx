@@ -1,7 +1,12 @@
+import { MyNavbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
+import { EditMainContent } from "../components/Edit-main-content.jsx";
 export function Edit() {
     return (
       <>
-        <h1>Edit</h1>
+        <MyNavbar/>
+        <EditMainContent/>
+        <Footer/>
       </>
     );
   }
