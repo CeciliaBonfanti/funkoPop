@@ -1,0 +1,72 @@
+/*SE DA ESTILO A ITEM*/
+.item-main_section{ /*se organiza disposicion del section dentro del main*/
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: var(--base-font);
+}
+
+.item-main_section p  {
+padding: var(--spacing-8);
+}
+
+.item-main_section_licence{
+font-size: var(--font-small);
+}
+
+.item-main_section_name{
+font-size: var(--font-jumbo);
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.item-main_section_description{
+font-size: var(--font-large);
+}
+
+.item-main_section_price{
+font-size: var(--font-jumbo);
+}
+
+.item-add_tocart{
+display: flex;
+}
+
+.item-button{
+display: inline-block;
+font-size: var(--font-medium);
+background-color: #4F4F4F;
+color: var(--light-font-solid);
+height: 4rem;
+width: 4rem;
+text-align: center;
+font-weight: 500;
+border: none;
+}
+
+.item-button:hover{
+cursor: pointer;
+}
+
+.item-span{
+border: 1px solid #4F4F4F;
+padding: 0.8rem 1.2rem;
+font-size: var(--font-medium);
+margin: 0 var(--spacing-8);
+}
+
+.item-main_section_pay{
+font-size: var(--font-xsmall);
+color: var(--secondary-solid);
+font-weight: 700;
+}
+
+.item-main_section_link{
+display: inline-block;
+font-size: var(--font-medium);
+background-color: var(--primary-solid);
+color: var(--light-font-solid);
+padding: var(--spacing-8) var(--spacing-14);
+font-weight: 500;
+margin-left: var(--spacing-24);
+}
