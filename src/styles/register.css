@@ -1,0 +1,64 @@
+.register-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   
+.register-main_section h1{
+font-family: var(--raleway-regular);
+text-transform: uppercase;
+font-weight: 700;
+font-size: var(--font-display);
+padding-top: var(--spacing-36);
+text-align: center;
+}
+
+.register-main_section p{
+font-family: var(--raleway-regular);
+font-size: var(--font-large);
+text-align: center;
+padding-top: var(--spacing-28);
+}
+
+.register-input-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: var(--spacing-36);
+margin: 0 var(--spacing-128) 0 var(--spacing-128);
+}
+
+.register-main_section_label{
+font-size: var(--font-large);
+}
+
+.register-button-container{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: var(--spacing-36) 0 var(--spacing-36) 0;
+gap: 30px;
+font-size: var(--font-medium);
+}
+
+.register_button_link{
+display: inline-block;
+background-color: var(--primary-solid);
+color: var(--light-font-solid);
+padding: var(--spacing-8) var(--spacing-14);
+font-weight: 500;
+}
+
+.register_button_link_a{
+color: var(--raleway-regular);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: var(--font-xsmall);
+}
+.register-main_section_input {
+padding: 0.5rem;
+border: none;
+border-bottom: 2px solid var(--primary-solid);
+}
