@@ -4,7 +4,8 @@ import "../styles/footer.css";
 export function Footer() {
   return (
     <>
-      <footer className="fw-100  mt-5 fixed-bottom color-footer">
+
+      <footer className="fw-100  mt-5 color-footer">
         <section className="container py-4">
           <div className="m-0 p-0 d-flex align-items-center justify-content-between w-100">
             <article className=" d-flex flex-column align-items-center align-items-md-start gap-2">
